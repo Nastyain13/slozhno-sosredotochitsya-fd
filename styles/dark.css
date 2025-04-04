@@ -5,12 +5,43 @@
 */
 
 :root.theme-dark {
+  --main-font: IBM Plex Mono;
+--accent-text-color: #000028;
+--main-bg-color: var(--accent-text-color);
+--title-color:#DB00FF;
+--main-title-color:#FF0070;
+--main-text-color:#F1B2CE;
+--bg-image: url(../images/cover-image-dark.png);
+--main-font-size: 18px;
+--background-color:#000028; --shadow-color:#FF0070;
+}
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
+
 
 .theme-dark .page {
+  background-image: var(--bg-image: url(../images/cover-image-dark.png));
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
+.rec-label{
+  color:var(--main-title-color);
+  font-size: var(--main-font-size);
+}
+
+.rec-label::after {
+  content: '•';
+  margin-left: 10px;
+  font-size: 0.8em;
+  color: (--main-title-color);
+  text-shadow: 0 0 0 var(--main-title-color);
+}
+
+.header__theme-menu-button {
+  color: (--main-title-color);
+  font-size:var(--main-font-size);
+  font-style: var(--main-font);
+}
+
