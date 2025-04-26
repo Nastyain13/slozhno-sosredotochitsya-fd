@@ -4,19 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
+    <meta name="color-scheme" content="dark light" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+		<link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <meta name="color-scheme" content="dark light" />
+    
+    <title>Сложно сосредоточиться</title>
+    <script src="./scripts/script.js"></script>
   </head>
 
   <body class="page">
   
     <header class="header decorative-corner">
-      <span class="rec-label" aria-hidden="true">REC</span>
+      <div class="rec-label" aria-hidden="true">
+        <span class="rec-label-text">REC</span>
+        </div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -44,10 +49,12 @@
         </ul>
       </nav>
       <h1 class="header-title">no focus</h1>
+      <div class="header_container">
       <p class="header-text title-decor">
         Что делать, когда не можешь делать ничего <br />Или почему нам так сложно
         сконцентрироваться, особенно когда очень надо
       </p>
+    </div>
     </header>
     <main class="main">
       <section class="content content-text-why">
@@ -130,12 +137,12 @@
       </h2>
       <div>
       <h3
-      class="content-subtittle title-decor"> 5 простых (на самом деле неочень) советов
+      class="content-subtittle title-decor border__setting"> 5 простых (на самом деле неочень) советов
     </h3>
     
       <ul class="content__list">
         <li class="content__list-item">
-          <h4 class="content-subtittle title-decor">
+          <h4 class="content-subtittle section__subtitle--type-regular title-decor">
             Представьте небо и облака
           </h4>
           <p class="content-paragraph">
@@ -150,7 +157,7 @@
           </p>
         </li>
         <li class="content__list-item">
-          <h4 class="content-subtittle title-decor">Включите музыку</h4>
+          <h4 class="content-subtittle section__subtitle--type-regular title-decor">Включите музыку</h4>
           <p class="content-paragraph">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -159,7 +166,7 @@
           </p>
         </li>
         <li class="content__list-item">
-          <h4 class="content-subtittle title-decor">Прогуляйтесь</h4>
+          <h4 class="content-subtittle section__subtitle--type-regular title-decor">Прогуляйтесь</h4>
           <p class="content-paragraph">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a class="highlighted-link-shadow" href="#">показал</a>
@@ -171,7 +178,7 @@
           </p>
         </li>
         <li class="content__list-item">
-          <h4 class="content-subtittle title-decor">Хорошо ешьте</h4>
+          <h4 class="content-subtittle section__subtitle--type-regular title-decor">Хорошо ешьте</h4>
           <p class="content-paragraph">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -180,7 +187,7 @@
           </p>
         </li>
         <li class="content__list-item">
-          <h4 class="content-subtittle title-decor">Читайте</h4>
+          <h4 class="content-subtittle section__subtitle--type-regular title-decor">Читайте</h4>
           <p class="content-paragraph">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -192,53 +199,53 @@
       </div>
     </section>
 <section class="content content-images">
-  <h3 class="content-subtittle title-decor">А можно в картинках?</h3>
-  <div class="content-images__list">
-  <figure class="content-images__item">
+  <h4 class="content-subtittle title-decor">А можно в картинках?</h4>
+  <ul class="content-images__list">
+  <li class="content-images__item">
     <img
       src="./images/sunset.png"
       alt="Закат"
       loading="lazy"
       class="content__image"
     />
-  </figure>
-  <figure class="content-images__item">
+  </li>
+  <li class="content-images__item">
     <img
       src="./images/ice-cream.png"
       alt="Самое вкусное мороженое"
       loading="lazy"
       class="content__image"
     />
-  </figure>
-  <figure class="content-images__item">
+  </li>
+  <li class="content-images__item">
     <img
       src="./images/tape.png"
       alt="Аудиокассета"
       loading="lazy"
       class="content__image"
     />
-  </figure>
-  <figure class="content-images__item">
+  </li>
+  <li class="content-images__item">
     <img
       src="./images/books.png"
       alt="Книги"
       loading="lazy"
       class="content__image"
     />
-  </figure>
-  <figure class="content-images__item">
+  </li>
+  <li class="content-images__item">
     <img
       src="./images/street.png"
       alt="Улица"
       loading="lazy"
       class="content__image"
     />
-  </figure>
-</div>
+  </li>
+</ul>
 </section>
 </main>
 <footer class="footer decorative-corner">
-  <h2 class="footer-title ">
+  <h2 class="footer-title">
   focus
   </h2>
 </footer>

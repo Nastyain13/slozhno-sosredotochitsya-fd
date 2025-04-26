@@ -13,7 +13,15 @@
 --main-text-color:#F1B2CE;
 --bg-image: url(../images/cover-image-dark.png);
 --main-font-size: 18px;
---background-color:#000028; --shadow-color:#FF0070;
+--background-color:#000028; 
+--shadow-color:#FF0070;
+--font-weight: 700;
+--content-title-color:#FF0070;
+--font-weight-regular: 400;
+--rec-text-color:#FF0070;
+--menu-color:#FF0070;
+--corner-color:var(--menu-color);
+
 }
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -26,22 +34,5 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.rec-label{
-  color:var(--main-title-color);
-  font-size: var(--main-font-size);
-}
 
-.rec-label::after {
-  content: '•';
-  margin-left: 10px;
-  font-size: 0.8em;
-  color: (--main-title-color);
-  text-shadow: 0 0 0 var(--main-title-color);
-}
-
-.header__theme-menu-button {
-  color: (--main-title-color);
-  font-size:var(--main-font-size);
-  font-style: var(--main-font);
-}
 
