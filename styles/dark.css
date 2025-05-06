@@ -5,19 +5,15 @@
 */
 
 :root.theme-dark {
-  --main-font: IBM Plex Mono;
 --accent-text-color: #000028;
 --main-bg-color: var(--accent-text-color);
 --title-color:#DB00FF;
 --main-title-color:#FF0070;
 --main-text-color:#F1B2CE;
 --bg-image: url(../images/cover-image-dark.png);
---main-font-size: 18px;
 --background-color:#000028; 
 --shadow-color:#FF0070;
---font-weight: 700;
 --content-title-color:#FF0070;
---font-weight-regular: 400;
 --rec-text-color:#FF0070;
 --menu-color:#FF0070;
 --corner-color:var(--menu-color);
@@ -29,10 +25,9 @@
   */
 
 
-.theme-dark .page {
-  background-image: var(--bg-image: url(../images/cover-image-dark.png));
+
   /* Вам также нужно будет написать ряд подобных селекторов */
-}
+
 
 
 
