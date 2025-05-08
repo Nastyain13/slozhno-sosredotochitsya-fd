@@ -9,7 +9,7 @@
   --title-color:#DB00FF;
   --main-title-color:#FF0070;
   --main-text-color:#F1B2CE;
-  --bg-image: url(../images/cover-image.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --main-font-size: 18px;
   --background-color:#000028;
   --shadow-color:#FF0070;
@@ -18,5 +18,5 @@
   --rec-text-color:#FF0070;
   --menu-color:#FF0070;
  --corner-color:var(--menu-color);
-
+ --hover-color:#FF007066; 
 }

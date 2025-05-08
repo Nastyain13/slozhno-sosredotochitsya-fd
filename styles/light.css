@@ -16,6 +16,7 @@
   --rec-text-color: transparent;
   --menu-color:#353430;;
   --corner-color:var(--menu-color);
+  --hover-color:#32312D66;
 }
 
 @media (prefers-color-scheme: light){
@@ -31,5 +32,6 @@
  --rec-text-color: transparent;
  --menu-color:#353430;;
  --corner-color:var(--menu-color);
+ --hover-color:#32312D66;
 }
 }
